@@ -1,3 +1,10 @@
 {
-  "TRONCO":"TRONCO DEl RITMO"
+  "WELCOME":"Bienvenido a Meteor!",
+  "CLICK":"Click aqui",
+  "COUNTER":"Tu has presionado el boton %s veces.",
+  "LEARN":"Aprende Meteor!",
+  "TUTORIAL":"Haz el tutorial",
+  "GUIDE":"Sigue la guia",
+  "DOCS":"Lee la documentación",
+  "DICUSS":"Discute"
 }

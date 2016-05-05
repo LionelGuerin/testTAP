@@ -3,23 +3,23 @@
 </head>
 
 <body>
-  <h1>Welcome to Meteor!</h1>
+  <h1>{{_ "WELCOME"}}</h1>
 
   {{> hello}}
   {{> info}}
 </body>
 
 <template name="hello">
-  <button>Click Me</button>
-  <p>You've pressed the button {{counter}} times.</p>
+  <button>{{_ "CLICK"}}</button>
+  <p>{{_ "COUNTER" counter}}</p>
 </template>
 
 <template name="info">
-  <h2>{{_ "TRONCO"}} Learn Meteor!</h2>
+  <h2>{{_ "LEARN"}}</h2>
   <ul>
-    <li><a href="https://www.meteor.com/try">Do the Tutorial</a></li>
-    <li><a href="http://guide.meteor.com">Follow the Guide</a></li>
-    <li><a href="https://docs.meteor.com">Read the Docs</a></li>
-    <li><a href="https://forums.meteor.com">Discussions</a></li>
+    <li><a href="https://www.meteor.com/try">{{_ "TUTORIAL"}}</a></li>
+    <li><a href="http://guide.meteor.com">{{_ "GUIDE"}}</a></li>
+    <li><a href="https://docs.meteor.com">{{_ "DOCS"}}</a></li>
+    <li><a href="https://forums.meteor.com">{{_ "DICUSS"}}</a></li>
   </ul>
 </template>
