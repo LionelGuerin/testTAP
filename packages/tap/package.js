@@ -19,10 +19,7 @@ function configurePackage(api) {
     api.use(impliedPackages);
     api.imply(impliedPackages);
 
-    api.addFiles([
-        "lib/imports/startup/client/i18n_startup.js",
-        "lib/i18n/en.i18n.json",
-        "lib/i18n/es-MX.i18n.json"]);
+    api.addFiles("lib/imports/startup/client/i18n_startup.js");
 
     api.addFiles("server/main.js", ["server"]);
 
