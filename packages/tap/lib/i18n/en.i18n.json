@@ -1,0 +1,10 @@
+{
+    "WELCOME": "Welcome to Meteor!",
+    "CLICK": "Click here",
+    "COUNTER": "You clicked %s times.",
+    "LEARN": "learn Meteor!",
+    "TUTORIAL": "tutorial",
+    "GUIDE": "guide",
+    "DOCS": "documentation",
+    "DICUSS": "Discussion"
+}
